@@ -85,6 +85,7 @@ main .content .flexbox .text-content a:hover {
     cursor: pointer;
 }
 
+/* Narrow Window */
 @media (max-width: 1130px) {
     main .content .flexbox {
         flex-direction: column;
@@ -93,5 +94,9 @@ main .content .flexbox .text-content a:hover {
 
     main .content .flexbox img {
         width: 75%;
+    }
+
+    .f {
+
     }
 }
