@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: url("../images/bg-desktop.svg") hsl(257, 40%, 49%);
+    background-position: -10rem 50%;
+    background-size: cover;
+
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+main .content {
+    margin: auto;
+    padding: 2rem 1rem;
+    /*
+        The design for the 1440px width has some spaces around content. 
+        What I achived with margin auto; padding: 1rem; and max-width: 1344;
+    */
+    max-width: 1344px;
+}
+
+.logo {
+    margin-bottom: 5rem
+}
+
+main .content .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.5rem;
+}
+
+main .content .flexbox img {
+    width: 55%;
+}
+
+main .content .flexbox .text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+main .content .flexbox .text-content h1 {
+    font-size: 2.4rem;
+    color: white;
+    font-family: Poppins;
+    max-width: 518px;
+}
+
+main .content .flexbox .text-content p {
+    font-size: 1rem;
+    color: white;
+    font-family: Poppins;
+    max-width: 518px;
+}
+
+main .content .flexbox .text-content a {
+    font-size: 1.2rem;
+    font-family: Poppins;
+    color:hsl(300, 69%, 71%);
+    text-decoration-line: none;
+
+    padding: .5rem 3rem;
+    width: fit-content;
+
+
+    border-radius: 1.5rem;
+    background-color: white;
+
+    transition: 
+        color 0.15s,
+        background-color 0.15s;
+}
+
+main .content .flexbox .text-content a:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
+
+@media (max-width: 1130px) {
+    main .content .flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .content .flexbox img {
+        width: 75%;
+    }
+}
