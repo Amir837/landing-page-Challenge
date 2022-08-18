@@ -122,9 +122,23 @@ main .content .flexbox .text-content a:hover {
         text-align: center;
     }
 
-
+    main .content .flexbox .text-content a {
+        padding: .5rem 5rem;
+    }
 }
 
-/* @media (max-width: 575px) {
+@media (max-width: 575px) {
+    main .content .flexbox .text-content h1 {
+        font-size: 1.6rem;
+        max-width: 21rem;
+    }
 
-} */
+    main .content .flexbox .text-content p {
+        font-size: 0.8rem;
+        max-width: 21rem;
+    }
+
+    main .content .flexbox .text-content a {
+        font-size: 0.84rem;
+    }
+}
