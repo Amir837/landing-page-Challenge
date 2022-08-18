@@ -188,6 +188,14 @@ footer a {
     color: rgb(255, 153, 0);
 }
 
+footer .frontendMentor {
+    transition: all 0.15s;
+}
+
+footer .frontendMentor:hover {
+    font-size: 2rem;
+}
+
 footer .self {
     transition: all 0.15s;
 }
