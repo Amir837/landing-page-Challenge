@@ -180,8 +180,11 @@ main .content .icon .fa-brands:hover {
 footer {
     background-color: black;
     color: white;
-    text-align: center;
     height: 2.25rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer a {
